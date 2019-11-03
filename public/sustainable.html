@@ -58,28 +58,32 @@
     <li><a href="collapsible.html">Javascript</a></li>
     <li><a href="mobile.html">Mobile</a></li>
 </ul>
-<div class="card center-align">
+<div class="card center-align oxyfont">
     <div class="card-image waves-effect waves-block waves-light">
         <div class="row">
-            <img class="activator col s4 offset-l4" src="images/check.png" width="500" alt="Check">
+            <img id="good" class="activator col s4 offset-l4" src="images/check.png" width="500" alt="Check">
+            <img id="bad" class="activator col s4 offset-l4 hide" src="images/ex.png" width="500" alt="X">
+            <img id="meh" class="activator col s4 offset-l4 hide" src="images/squiggle.png" width="500" alt="Squiggle">
         </div>
     </div>
     <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">This product is sustainably made!<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
+        <p>click to learn more</p>
     </div>
     <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">Categories<i class="material-icons right">close</i></span>
         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        <ul class="tabs tabs-fixed-width">
-            <li class="tab"><a class="testtab active" href="#test4">Test 1</a></li>
-            <li class="tab"><a class="testtab active" href="#test5">Test 2</a></li> <!-- how change active tab?-->
-            <li class="tab"><a class="testtab active" href="#test6">Test 3</a></li>
-        </ul>
-        <div class="content">
-            <div id="test4" class="active" >Test 1</div>
-            <div id="test5" class="active">Test 2</div>
-            <div id="test6" class="active" >Test 3</div>
+        <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#test4">Test 1</a></li>
+                <li class="tab"><a href="#test5">Test 2</a></li>
+                <li class="tab"><a href="#test6">Test 3</a></li>
+            </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+            <div class="row" id="test4">Test 1</div>
+            <div class="row" id="test5">Test 2</div>
+            <div class="row" id="test6">Test 3</div>
         </div>
     </div>
 </div>

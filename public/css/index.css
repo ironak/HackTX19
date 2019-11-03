@@ -1,4 +1,18 @@
 .oxyfont{
     font-family: Oxygen;
-    color: #37474f !important;
+    color: #37474f;
+}
+.hide{
+    display: none !important;
+}
+.prettybackground{
+    background-image: url("../images/watercolortexture.png");
+    background-size: cover;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
 }
