@@ -56,18 +56,18 @@ input.addEventListener("keyup", function(event) {
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
-    switch(input){
-            case "cheezits":
-                window.location.href = "/midsustainable.html";
-                break;
+    switch(input.value()){
+	    case "cheezits":
+	        window.location.href = "midsustainable.html";
+	        break;
 
-            case "gogo squeez":
-                window.location.href = "/notsustainable.html";
-                break;
+	    case "gogo squeez":
+	        window.location.href = "notsustainable.html";
+	        break;
 
-            case "rice crispies":
-                window.location.href = "file:///Users/julia_hathaway/Library/Mobile%20Documents/com~apple~CloudDocs/CS314H/Boggle/HackTX19/public/sustainable.html";
-                break;
-        }
+	    case "rice krispies":
+	        window.location.href = "sustainable.html";
+	        break;
+	}
   }
 });
