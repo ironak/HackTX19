@@ -1,5 +1,17 @@
 {
   "projects": {
-    "default": "eathos-bc2c0"
+    "default": "eathos"
+  },
+  "targets": {
+    "eathos-bc2c0": {
+      "hosting": {
+        "eathos": [
+          "eathos"
+        ],
+        "eathos-bc2c0": [
+          "eathos-bc2c0"
+        ]
+      }
+    }
   }
 }
