@@ -1,5 +1,8 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
+    $('.parallax').parallax();
 });
 
-$(testtab).onclick()
+$("#good").on("click", function() {
+    $("#good").hide();
+})
