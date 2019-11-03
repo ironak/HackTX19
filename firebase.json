@@ -6,24 +6,14 @@
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
-  "hosting": [ {
-      "target": "eathos",
-      "public": "public",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    }, {
-      "target": "eathos-bc2c0",
-      "public": "public",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    }
-  ],
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
   "storage": {
     "rules": "storage.rules"
   }
