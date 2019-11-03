@@ -42,10 +42,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+<nav class="nav-wrapper white">
+    <div class="nav-wrapper container white">
+        <a href="index.html" class="brand-logo" ><img src="images/logo.png" width="65" alt="Logo"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="about.html" ><span class="black-text">About</span></a></li>
+            <li><a href="contact.html"><span class="black-text">Contact</span></a></li>
+        </ul>
+    </div>
+</nav>
+<ul class="sidenav container white" id="mobile-demo" >
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+</ul>
+<div class="card center-align">
+    <div class="card-image waves-effect waves-block waves-light">
+        <div class="row">
+            <img class="activator col s4 offset-l4" src="images/check.png" width="500" alt="Check">
+        </div>
+    </div>
+    <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">This product is sustainably made!<i class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Categories<i class="material-icons right">close</i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a class="testtab active" href="#test4">Test 1</a></li>
+            <li class="tab"><a class="testtab active" href="#test5">Test 2</a></li> <!-- how change active tab?-->
+            <li class="tab"><a class="testtab active" href="#test6">Test 3</a></li>
+        </ul>
+        <div class="content">
+            <div id="test4" class="active" >Test 1</div>
+            <div id="test5" class="active">Test 2</div>
+            <div id="test6" class="active" >Test 3</div>
+        </div>
+    </div>
+</div>
 
-    <img src="images/check.png" alt="Check">
-    <h1>
-        This product is sustainably made!
-    </h1>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>

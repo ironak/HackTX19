@@ -33,66 +33,52 @@
     <script defer src="/__/firebase/init.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!-- <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style> -->
   </head>
-<!--  <body>-->
-<!--    <div id="message" class = "orange-text">-->
-<!--      <h2>Welcome</h2>-->
-<!--      <h1>Firebase Hosting Setup Complete</h1>-->
-<!--      <p>Poooooooooooooooooooooooooooooooooooooooooooooooooooop</p>-->
-<!--      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>-->
-<!--    </div>-->
-<!--    <p id="load">Firebase SDK Loading&hellip;</p>-->
+
  <body>
-     <nav class="nav-wrapper white">
-         <div class="nav-wrapper container white">
-             <a href="index.html" class="brand-logo" ><img src="images/logo.png" width="65" alt="Logo"></a>
+     <nav class="nav-wrapper white oxyfont">
+         <div class="row container">
+             <a href="index.html" class="brand-logo" ><img src="images/ethosbuffer.png" width="73" alt="Logo"></a>
              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
              <ul class="right hide-on-med-and-down">
-                 <li><a href="about.html" ><span class="black-text">About</span></a></li>
-                 <li><a href="contact.html"><span class="black-text">Contact</span></a></li>
+                 <li><a href="about.html" ><span class="blue-grey-text text-darken-3 ">About</span></a></li>
+                 <li><a href="contact.html"><span class="blue-grey-text text-darken-3">Contact</span></a></li>
+                 <li><a href="sustainable.html"><span class="blue-grey-text text-darken-3">Sustainable Screen Test</span></a></li>
+                 <li><a href="notsustainable.html"><span class="blue-grey-text text-darken-3">Not Sustainable Screen Test</span></a></li>
              </ul>
              </div>
          </nav>
-             <ul class="sidenav container white" id="mobile-demo" >
+             <ul class="sidenav container black" id="mobile-demo" >
                  <li><a href="sass.html">Sass</a></li>
                  <li><a href="badges.html">Components</a></li>
                  <li><a href="collapsible.html">Javascript</a></li>
                  <li><a href="mobile.html">Mobile</a></li>
              </ul>
-    <div class="container">
-        <div class="container row">
-            <h4>
-                Search for a Product:
-            </h4>
-            <div class="input-field col s6">
-                <input placeholder="Product Name" type="text" class="validate">
-            </div>
+     <br>
+    <div class="container oxyfont center-align">
+        <div class="container blue-grey-text text-darken-3 card">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
         </div>
-        <div class="container">
-            <h4>
+        <br>
+        <div class="row container blue-grey-text text-darken-3">
+            <h5>
                 Take a Picture of Your Product!
-            </h4>
+            </h5>
             <a href="camera.html"><img src="images/camera.png" width="200" alt="Camera"></a>
         </div>
     </div>
